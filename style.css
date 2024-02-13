@@ -1,0 +1,229 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@400;700&display=swap');
+
+
+
+
+
+body{
+font-family: 'Poppins', sans-serif;
+}
+
+h1{
+font-size: 48px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+}
+
+h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+}
+
+h3{
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+}
+
+h4{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+p{
+font-size: 16px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+color: #6C6B6B;
+}
+
+button{
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color:#21B573;
+  padding: 12px 36px;
+  border-radius: 33px;
+  border-style: none;
+}
+
+/* *******************head style***************** */
+.head{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 35px 180px 0px 180px;
+  background-color:#F0FFF0;
+}
+
+.headLogo img{
+  width: 198.07px;
+  height: 59px;
+}
+
+.manu{
+  display: flex;
+  align-items: center;
+}
+
+.nav_ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav_li{
+  padding-right: 30px;
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color:#000000;
+}
+
+
+
+
+
+/* **************fast page start-------------- */
+.fast_pg{
+  padding: 70px 180px 30px 180px;
+  background-color:#F0FFF0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fast_pg-h4{
+  color: #FD511A;
+  margin: 5px 0px 15px 0px;
+}
+.fast_pg-p{
+  margin: 15px 0px 0px 0px;
+}
+.fast_pg-btn{
+  margin: 15px 0px 0px 0px;
+}
+
+.fast_page-img img{
+  width: 554px;
+}
+ /* **********************fast page end*************************** */
+
+
+.book_pg{
+  padding: 40px 180px 30px 180px;
+  background-color:#F0FFF0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.book_pg-itmes{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 35px 30px;
+}
+
+.book_pg-itmes img{
+max-width: 66px;
+}
+
+
+/* ******************************sec page.................. */
+.sec_pg{
+  padding: 40px 180px 30px 180px;
+
+}
+.sec_pg h2{
+color: #413960;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.sec_pg-itmes{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.sec_pg-itme{
+width: 370px;
+padding: 10px;
+}
+.sec_pg-itme img{
+  width: 370px;
+
+}
+.sec_pg-itme h3{
+  color: #413960;
+  }
+
+.sec_pg-itme p{
+  color: #585859;
+}
+
+
+.sec_pg-footer{
+  display: flex;
+  justify-content:space-between;
+}
+
+.sec_pg-left{
+  display: flex;
+  align-items: center;
+}
+.sec_pg-left img{
+  width: 24px;
+}
+.sec_pg-right{
+  display: flex;
+  align-items: center;
+}
+.sec_pg-right img{
+  width: 24px;
+}
+
+
+/* ***********************last_arr******* */
+
+.last_ar{
+  padding: 40px 180px 0px 180px;
+}
+
+.last_ar h2{
+  text-align: center;
+}
+
+
+.last_ar-itmes{
+  padding: 90px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.last_ar-itmes img{
+  width: 120px;
+}
+.last_ar-itmes p{
+  width: 580px;
+}
+
